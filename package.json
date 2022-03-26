@@ -1,0 +1,16 @@
+{
+    "name": "catalog_app",
+    "version": "0.0.0",
+    "description": "An item catalog app",
+    "main": "index.js",
+    "author": "JS",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+        "start": "electron --trace-warnings ."
+    },
+    "devDependencies": {
+        "@electron-forge/cli": "^6.0.0-beta.63",
+        "electron": "^17.1.2"
+    }
+}
